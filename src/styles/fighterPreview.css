@@ -1,0 +1,33 @@
+.fighter-preview___root {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 250px;
+}
+
+.fighter-preview___right {
+  align-items: center;
+}
+
+.fighter-preview___right img{
+  transform: scaleX(-1);
+}
+
+.fighter-preview___left {
+  align-items: center;
+}
+
+.fighter-preview___img{
+  width: 230px;
+  height: 400px;
+}
+
+.fighter-preview___block{
+  width: 130px;
+  height: 160px;
+  padding-left: 10px;
+  background: rgb(241, 182, 54);
+  border: 3px solid rgb(230, 222, 207);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: rgb(117, 0, 0);
+}
